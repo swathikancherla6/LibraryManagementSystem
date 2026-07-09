@@ -135,3 +135,6 @@ Controller → Service Interface → Service Impl → Repository → Entity
 ## License
 
 MIT — suitable for learning, portfolios, and interviews.
+
+The default JWT_SECRET is for local development only. Always set a real
+JWT_SECRET environment variable before deploying anywhere public.

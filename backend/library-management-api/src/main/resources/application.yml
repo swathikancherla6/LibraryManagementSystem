@@ -11,7 +11,7 @@ server:
 
 app:
   jwt:
-    secret: ${JWT_SECRET:4f8c2e9a7b1d6f3c8e5a0b9d2f7c4e1a6b3d8f0c5e2a9b6d3f8c1e4a7b0d9f2}
+    secret: ${JWT_SECRET:local-dev-only-not-for-production-CHANGE-ME-32chars-min}
     expiration-ms: 86400000
   borrow:
     default-loan-days: 14
